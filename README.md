@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tienda de Decants de Perfumes</title>
+  <title>Emporium Parfum</title>
   <link rel="stylesheet" href="styles.css">
   <script src="scripts.js" defer></script>
 </head>
@@ -15,6 +15,8 @@
         <li><a href="#verano">Perfumes de Verano</a></li>
         <li><a href="#primavera">Perfumes de Primavera</a></li>
         <li><a href="#otono">Perfumes de Otoño</a></li>
+        <li><a href="#Perfumes de Hombre</a></li>
+        <li><a href="#Perfues de Mujer</a></li>      
       </ul>
     </nav>
     <h1>Bienvenidos a nuestra Tienda de Decants</h1>

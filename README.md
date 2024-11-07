@@ -88,3 +88,73 @@
   </footer>
 </body>
 </html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+.perfume {
+  background-color: white;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+
+.perfume select {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+// Este script puede ser expandido con funciones para agregar productos al carrito y calcular el precio final, entre otras características.
+
+document.addEventListener("DOMContentLoaded", () => {
+  // Aquí puedes agregar funcionalidades adicionales como el cálculo de precio o agregar al carrito
+  const selects = document.querySelectorAll('.tamaño');
+  selects.forEach(select => {
+    select.addEventListener('change', (event) => {
+      alert(`Has seleccionado el tamaño ${event.target.value}`);
+    });
+  });
+});
